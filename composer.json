@@ -1,0 +1,57 @@
+{
+    "name": "yorcreative/laravel-scanator",
+    "description": "A Laravel package that provides functionalities for detecting sensitive information and patterns in the database, helping to ensure data privacy and security by empowering developers to easily integrate database scanning capabilities into their applications and take proactive measures to protect sensitive data.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "framework",
+        "scanator",
+        "database detection",
+        "sensitive information detection",
+        "secret detection",
+        "data privacy",
+        "security",
+        "developers",
+        "database scanning",
+        "protect sensitive data",
+        "application security",
+        "proactive measures",
+        "data protection",
+        "data security"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^v9|v10.*",
+        "yorcreative/laravel-scrubber": "v2.6.2"
+    },
+    "require-dev": {
+        "ext-pdo_sqlite": "*",
+        "laravel/pint": "^1.0",
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "YorCreative\\Scanator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YorCreative\\Scanator\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "coverage": "vendor/bin/phpunit --coverage-html=coverage",
+        "lint": "vendor/bin/pint",
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YorCreative\\Scanator\\ScanatorProvider"
+            ]
+        }
+    }
+}

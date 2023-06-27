@@ -1,0 +1,316 @@
+[
+    {
+        "TABLE_NAME": "examples",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "examples",
+        "COLUMN_NAME": "string",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "examples",
+        "COLUMN_NAME": "array",
+        "DATA_TYPE": "json",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "examples",
+        "COLUMN_NAME": "created_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "examples",
+        "COLUMN_NAME": "updated_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "uuid",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "connection",
+        "DATA_TYPE": "text",
+        "CHARACTER_MAXIMUM_LENGTH": "65535",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "queue",
+        "DATA_TYPE": "text",
+        "CHARACTER_MAXIMUM_LENGTH": "65535",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "payload",
+        "DATA_TYPE": "longtext",
+        "CHARACTER_MAXIMUM_LENGTH": "4294967295",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "exception",
+        "DATA_TYPE": "longtext",
+        "CHARACTER_MAXIMUM_LENGTH": "4294967295",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "failed_jobs",
+        "COLUMN_NAME": "failed_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": "CURRENT_TIMESTAMP",
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "migrations",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "migrations",
+        "COLUMN_NAME": "migration",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "migrations",
+        "COLUMN_NAME": "batch",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "password_reset_tokens",
+        "COLUMN_NAME": "email",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "password_reset_tokens",
+        "COLUMN_NAME": "token",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "password_reset_tokens",
+        "COLUMN_NAME": "created_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "tokenable_type",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "tokenable_id",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "name",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "token",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "64",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "abilities",
+        "DATA_TYPE": "text",
+        "CHARACTER_MAXIMUM_LENGTH": "65535",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "last_used_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "expires_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "created_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "personal_access_tokens",
+        "COLUMN_NAME": "updated_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "USER",
+        "DATA_TYPE": "char",
+        "CHARACTER_MAXIMUM_LENGTH": "32",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "CURRENT_CONNECTIONS",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "TOTAL_CONNECTIONS",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "name",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "email",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "email_verified_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "password",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "255",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "NO"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "remember_token",
+        "DATA_TYPE": "varchar",
+        "CHARACTER_MAXIMUM_LENGTH": "100",
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "created_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    },
+    {
+        "TABLE_NAME": "users",
+        "COLUMN_NAME": "updated_at",
+        "DATA_TYPE": "timestamp",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "COLUMN_DEFAULT": null,
+        "IS_NULLABLE": "YES"
+    }
+]
+
+
